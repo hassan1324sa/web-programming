@@ -1,0 +1,25 @@
+# Internet, the World Wide Web, and Web 3.0
+
+## 1. The Internet and the World Wide Web (approximately 250 words)
+
+The **Internet** and the **World Wide Web** are related but not identical. The Internet is the worldwide infrastructure: a “network of networks” linking computers, servers, phones, data centers, and other devices. It includes physical cables, wireless links, routers, data centers, and the agreed technical protocols that allow networks to communicate. The Internet Society explains that it works because open standards enable independently operated networks to connect and function together. Internet-based services include email, instant messaging, voice and video calls, online gaming, file transfer, and the Web.
+
+The **World Wide Web**, usually called the Web, is one service built on top of that infrastructure. It is a system of interlinked resources that people access through web browsers. Web pages and applications are commonly created with HTML, styled with CSS, and made interactive with JavaScript. Web standards, including those developed by the World Wide Web Consortium (W3C), help browsers and other software display and exchange these resources consistently. When a user enters a URL or clicks a link, web technologies such as HTTP or HTTPS request information from a server and return it to the browser.
+
+A useful comparison is that the Internet is the road system, while the Web is one kind of traffic using those roads. The analogy is not perfect, but it shows why the Web depends on the Internet without being the whole Internet. Email can travel across the Internet without using web pages, just as a phone call can use the network without involving a browser. In short, the Internet provides the connectivity; the Web provides a globally linked information and application system that uses that connectivity.
+
+## 2. Web 3.0: What It Is and Where It May Go (approximately 200 words)
+
+**Web 3.0**, or Web3, is a broad vision of a more decentralized Internet in which users have greater control over their identities, data, and digital assets. Web 2.0 made the Internet interactive: people can post, share, comment, and collaborate, but large platforms often store the data, set the rules, and capture much of the economic value. Web3 proposes a “read-write-own” model, reducing dependence on those central intermediaries.
+
+Its main technologies include **blockchain**, a distributed ledger maintained by a network of computers; **smart contracts**, programs deployed on a blockchain that automatically execute agreed rules; and **decentralized applications (dApps)**, whose important functions use smart contracts and blockchain networks rather than a single company’s server. Cryptocurrencies and tokens can provide native payments, incentives, and representations of digital ownership. Decentralized storage, digital wallets, and decentralized identity are also commonly associated with Web3.
+
+In my view, Web3 is unlikely to replace Web 2.0 completely. Its strongest future is probably hybrid: blockchain-based ownership, payments, and verifiable records may improve finance, gaming, creator tools, and cross-platform identity. However, high fees, poor usability, scams, governance questions, privacy trade-offs, regulation, interoperability, scalability, and energy concerns remain serious obstacles. Web3 will have a durable future only if it becomes simpler, safer, more inclusive, and demonstrably more useful than centralized alternatives.
+
+## Sources
+
+- [Internet Society — How the Internet Works](https://www.internetsociety.org/internet/how-it-works/)
+- [World Wide Web Consortium (W3C) — Web Standards](https://www.w3.org/standards/webdesign/)
+- [Ethereum.org — What is Web3?](https://ethereum.org/web3/)
+- [Amazon Web Services — What is Web3?](https://aws.amazon.com/what-is/web3/)
+- Ray, P. P. (2023), [“Web3: A comprehensive review on background, technologies, applications, zero-trust architectures, challenges and future directions”](https://doi.org/10.1016/j.iotcps.2023.05.003), *Internet of Things and Cyber-Physical Systems*.
