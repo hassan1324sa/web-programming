@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Webpage</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header>
+    <h1>My Personal Webpage</h1>
+    <p>Welcome to my first HTML webpage.</p>
+
+    <nav>
+      <h2>Navigation</h2>
+      <a href="#about">About Me</a> |
+      <a href="#hobbies">Hobbies</a> |
+      <a href="#schedule">Class Schedule</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p><strong>Name:</strong> Hassan Mohamed Hassan Abdelwahab Elsayed</p>
+      <p><strong>Student Code:</strong> 250101865</p>
+      <p><strong>Program:</strong> Artificial Intelligence and Data Science Technology</p>
+
+      <img
+        src="assets/profile-small.svg"
+        srcset="assets/profile-small.svg 360w, assets/profile-large.svg 640w"
+        sizes="(max-width: 600px) 360px, 640px"
+        alt="A student learning web development with a laptop"
+        width="640"
+        height="360">
+    </section>
+
+    <section id="hobbies">
+      <h2>My Hobbies</h2>
+      <p>These are some things I like to do:</p>
+      <ul>
+        <li>Learning programming</li>
+        <li>Watching movies</li>
+        <li>Playing games</li>
+      </ul>
+
+      <h3>My Goals</h3>
+      <ol>
+        <li>Learn HTML.</li>
+        <li>Learn CSS.</li>
+        <li>Create my first website.</li>
+      </ol>
+    </section>
+
+    <section id="schedule">
+      <h2>My Weekly Class Schedule</h2>
+      <table>
+        <caption>Weekly class schedule</caption>
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Sunday</th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">9:00 - 11:00</th>
+            <td>Data Structures</td>
+            <td>Operating Systems</td>
+            <td>Free</td>
+            <td>Applied Mathematics</td>
+            <td>Applied Mathematics</td>
+          </tr>
+          <tr>
+            <th scope="row">11:00 - 13:00</th>
+            <td>Free</td>
+            <td>Operating Systems</td>
+            <td>Data Structures</td>
+            <td>Free</td>
+            <td>Data Cleansing</td>
+          </tr>
+          <tr>
+            <th scope="row">13:00 - 14:00</th>
+            <td colspan="5">Lunch Break</td>
+          </tr>
+          <tr>
+            <th scope="row">14:00 - 16:00</th>
+            <td>Web Programming</td>
+            <td>Data Cleansing</td>
+            <td>English Language</td>
+            <td>Innovation</td>
+            <td>English Language</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:hassansmn123@gmail.com">my mail</a></p>
+      <p><a href="#top">Back to the top</a></p>
+    </section>
+  </main>
+
+</body>
+</html>
